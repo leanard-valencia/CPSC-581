@@ -2572,8 +2572,9 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
+		justify-content: center;
 		position: relative;
-		margin: -2.5em 0 0 -2.5em;
+		margin: -2.5em 2.25em 0 -2.5em;
 	}
 
 		.tiles article {
@@ -2582,10 +2583,9 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
-			width: calc(33.33333% - 2.5em);
-			margin: 2.5em 0 0 2.5em;
+			width: calc(45% - 2.5em); /* Change the width to 50% */
+			margin: 2.5em 2.5em 0 2.5em;
 		}
-
 			.tiles article > .image {
 				-moz-transition: -moz-transform 0.5s ease;
 				-webkit-transition: -webkit-transform 0.5s ease;
@@ -2593,14 +2593,14 @@ input, select, textarea {
 				transition: transform 0.5s ease;
 				position: relative;
 				display: block;
-				width: 120%;
+				width: 110%;
 				border-radius: 4px;
 				overflow: hidden;
 			}
 
 				.tiles article > .image img {
 					display: block;
-					width: 120%;
+					width: 110%;
 				}
 
 				.tiles article > .image:before {
@@ -2666,7 +2666,7 @@ input, select, textarea {
 				position: absolute;
 				top: 0;
 				left: 0;
-				width: 120%;
+				width: 110%;
 				height: 100%;
 				padding: 1em;
 				border-radius: 4px;
