@@ -1,0 +1,335 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Project 2 - AquaEscape: Motorized Arduino Phone Holder that drives away from water. </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+		<style>
+		/* Make the image fully responsive */
+		.carousel-inner img {
+			max-width: 50%; /* Adjust the max-width to make the image smaller */
+      		display: block; /* Center the image */
+      		margin: 0 auto; /* Center the image */
+		}
+		.carousel-caption {
+			color: white; /* Set text color to white */
+     	    background: rgba(0, 0, 0, 0.5); /* Transparent black background */
+     	    padding: 10px; /* Add some padding to the captions */
+  		}
+		</style>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="project1.html">Project 1</a></li>
+							<li><a href="project2.html">Project 2 </a></li>
+							<li><a href="project3.html">Project 3</a></li>
+							<li><a href="#">Project 4</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>AquaEscape: Motorized Arduino Phone Holder That Drives Away From Water</h1>
+							<span class="image main"><img src="images/pic41.png" alt="" /></span>
+							<p>For this project, we embarked on a creative journey aimed at innovating solutions to everyday challenges. Our task was to design and create physical prototypes that effectively addressed common problems while emphasizing functionality, aesthetics, and engagement. This involved the integration of at least one input and output device, strategically concealing wiring and boards to ensure a seamless design. Our ultimate goal was twofold: to deliver not only a fully functional prototype but also an immersive narrative storyboard that vividly depicted interactions and experiences. Through this process, we aimed to ensure the relevance and captivation of our design within our target audience, striving to bring both practicality and intrigue to our solution.</p>
+							<h2>Initial Sketches</h2>
+							<p>First, we collectively generated ten sketches from each team member, fostering a breadth of diverse and creative concepts to kickstart our design exploration.  </p>
+                        </div>
+					<div id="demo" class="carousel slide" data-ride="carousel">
+						<ul class="carousel-indicators">
+						  <li data-target="#demo" data-slide-to="0" class="active"></li>
+						  <li data-target="#demo" data-slide-to="1"></li>
+						  <li data-target="#demo" data-slide-to="2"></li>
+						  <li data-target="#demo" data-slide-to="3"></li>
+						  <li data-target="#demo" data-slide-to="4"></li>
+						  <li data-target="#demo" data-slide-to="5"></li>
+						  <li data-target="#demo" data-slide-to="6"></li>
+						  <li data-target="#demo" data-slide-to="7"></li>
+						  <li data-target="#demo" data-slide-to="8"></li>
+						  <li data-target="#demo" data-slide-to="9"></li>
+						</ul>
+						<div class="carousel-inner">
+						  <div class="carousel-item active">
+							<img src="images/Initial Sketches/1.jpg" alt="Los Angeles" width="1100" height="500">
+							<div class="carousel-caption">
+							  <h3> Garbage Monitor (John)</h3>
+							  <p>An innovative Garbage Monitor design integrates an LED indicator that signals when the bin reaches its capacity with a weight sensor, coupled with an alarm reminder system. This smart solution ensures you're promptly alerted when it's time to empty the bin.</p>
+							</div>   
+						  </div>
+						  <div class="carousel-item">
+							<img src="images/Initial Sketches/2.jpg" alt="Chicago" width="1100" height="500">
+							<div class="carousel-caption">
+							  <h3>Concentration Bracelet (John)</h3>
+							  <p> A wearable designed to enhance focus and productivity. This innovative device discreetly buzzes or vibrates, gently reminding you when it's time to set aside distractions and return to work or studying.                            </p>
+							</div>   
+						  </div>
+						  <div class="carousel-item">
+							<img src="images/Initial Sketches/3.jpg" alt="New York" width="1100" height="500">
+							<div class="carousel-caption">
+							  <h3>Automatic Plant Watering System (John)</h3>
+							  <p>A device that automatically waters plants by detecting soil moisture levels using built-in sensors. It features an LED indicator that alerts when the water reservoir needs refilling, simplifying plant care for effortless maintenance.                            </p>
+							</div>   
+						  </div>
+						  <div class="carousel-item">
+							<img src="images/Initial Sketches/4.jpg" alt="Chicago" width="1100" height="500">
+							<div class="carousel-caption">
+							  <h3>Eyewear Glass Cleaner (Bassel)                         </h3>
+							  <p>A device designed to clean glasses automatically. It operates by spraying a cleaning solution onto the glasses when placed on the device and then gently wiping them clean similar to a car windshield wiper.                            </p>
+							</div>   
+						  </div>
+						  <div class="carousel-item">
+							<img src="images/Initial Sketches/5.jpg" alt="Chicago" width="1100" height="500">
+							<div class="carousel-caption">
+							  <h3>Device Legs (Bassel)</h3>
+							  <p>This device uses moisture sensors to detect contact with liquids and automatically lift the device effectively preventing potential damage by keeping it elevated and away from the liquid source.                            </p>
+							</div>   
+						  </div>
+						  <div class="carousel-item">
+							<img src="images/Initial Sketches/6.jpg" alt="Chicago" width="1100" height="500">
+							<div class="carousel-caption">
+							  <h3>Auto Air Freshener (Bassel)</h3>
+							  <p>Utilizing motors for mobility and equipped with air quality sensors, this device intelligently navigates spaces. It detects specific areas requiring a fresh scent and selectively sprays air freshener, ensuring an even distribution based on real-time air quality assessments.                              </p>
+							</div>   
+						  </div>
+						  <div class="carousel-item">
+							<img src="images/Initial Sketches/7.jpg" alt="Chicago" width="1100" height="500">
+							<div class="carousel-caption">
+							  <h3>Item Alert for Animals/Children (Mahian)                          </h3>
+							  <p>This device serves to notify owners when pets or children interact with restricted items. Leveraging motion detection it promptly signals owners of unauthorized access through an alarm. Additionally, it incorporates a buzzing mechanism to deter the children or pets from these items. </p>
+							</div>   
+						  </div>
+						  <div class="carousel-item">
+							<img src="images/Initial Sketches/8.jpeg" alt="Chicago" width="1100" height="500">
+							<div class="carousel-caption">
+							  <h3>Ripeness Checker (Mahian)                         </h3>
+							  <p>This device is designed to determine the optimal time to enjoy fruits or vegetables. Using color or UV detectors it assesses the ripeness of produce indicating the perfect moment for consumption. </p>
+							</div>   
+						  </div>
+						  <div class="carousel-item">
+							<img src="images/Initial Sketches/9.jpeg" alt="Chicago" width="1100" height="500">
+							<div class="carousel-caption">
+							  <h3> Bathroom Air Quality Checker (Mahian):                           </h3>
+							  <p> A device placed in the bathroom that uses an air quality sensor to check the condition of the bathroom. Using LED lights, it would notify when the room is ready to be entered again. Red signifying it is not safe and green when it is ready.   </p>
+							</div>   
+						  </div>
+						  <div class="carousel-item">
+							<img src="images/Initial Sketches/10.jpeg" alt="Chicago" width="1100" height="500">
+							<div class="carousel-caption">
+							  <h3>Chair Posture Reminder (Mahian)					</h3>
+							  <p>A chair-mounted device ensures your posture is correct using weight sensors. When it detects improper posture, it triggers a gentle buzzing reminder until you adjust to the correct position, promoting better posture and comfort.                            </p>
+							</div>   
+						  </div>
+						</div>
+						<a class="carousel-control-prev" href="#demo" data-slide="prev">
+						  <span class="carousel-control-prev-icon"></span>
+						</a>
+						<a class="carousel-control-next" href="#demo" data-slide="next">
+						  <span class="carousel-control-next-icon"></span>
+						</a>
+					  </div>
+					  <div class="inner">
+						<h3>Refined Sketches</h3>
+                        <p>Next, we honed our focus on refining the initial sketches, delving deeper into ten evolved iterations per team member, aiming for enhanced innovation and practicality in our design concepts.                        </p>
+					  </div>
+					  <div id="demo1" class="carousel slide" data-ride="carousel">
+						<ul class="carousel-indicators">
+						  <li data-target="#demo1" data-slide-to="0" class="active"></li>
+						  <li data-target="#demo1" data-slide-to="1"></li>
+						  <li data-target="#demo1" data-slide-to="2"></li>
+						  <li data-target="#demo1" data-slide-to="3"></li>
+						  <li data-target="#demo1" data-slide-to="4"></li>
+						  <li data-target="#demo1" data-slide-to="5"></li>
+						  <li data-target="#demo1" data-slide-to="6"></li>
+						  <li data-target="#demo1" data-slide-to="7"></li>
+						  <li data-target="#demo1" data-slide-to="8"></li>
+						  <li data-target="#demo1" data-slide-to="9"></li>
+						</ul>
+						<div class="carousel-inner">
+						  <div class="carousel-item active">
+							<img src="images/Refined Sketches/1.jpg" alt="Los Angeles" width="1100" height="500">
+							<div class="carousel-caption">
+							  <h3> Concentration Phone (John)</h3>
+							  <p>An evolution from the concentration bracelet, this design features a phone placed on moving surfaces triggered by proximity sensors. When it's time to focus, the phone autonomously moves out of reach, using sensors to detect hands. It's a heightened approach to minimize distractions, making phone access challenging during concentration periods.                              </p>
+							</div>   
+						  </div>
+						  <div class="carousel-item">
+							<img src="images/Refined Sketches/2.jpg" alt="Chicago" width="1100" height="500">
+							<div class="carousel-caption">
+							  <h3>Smart Planter (John)                         </h3>
+							  <p>Expanding on the automatic plant watering system, this device introduces mobility by integrating wheels. In addition to automated watering, it employs UV light sensors to ensure the plant is consistently exposed to sunlight by redirecting its position as needed. This enhancement offers both watering convenience and optimal sunlight exposure, contributing to the plant's overall health and growth.                              </p>
+							</div>   
+						  </div>
+						  <div class="carousel-item">
+							<img src="images/Refined Sketches/3.jpg" alt="New York" width="1100" height="500">
+							<div class="carousel-caption">
+							  <h3> Remote Pet Monitoring (John)                   </h3>
+							  <p> A complete rebrand from the Item Alert for Animals/Children, this device is dedicated to comprehensive pet surveillance. It tracks your pet's movements throughout the house providing real-time feedback to the owner. 
+                            </p>
+							</div>   
+						  </div>
+						  <div class="carousel-item">
+							<img src="images/Refined Sketches/4.jpg" alt="Chicago" width="1100" height="500">
+							<div class="carousel-caption">
+							  <h3>Device Wheels (Bassel)</h3>
+							  <p>Enhancing the concept of device protection from liquid damage this innovation builds upon the idea of device legs. Instead of using retracting legs this iteration employs wheels for mobility. Similar to its predecessor, it swiftly moves the device away from potential liquid sources ensuring swift and effective protection.</p>
+							</div>   
+						  </div>
+						  <div class="carousel-item">
+							<img src="images/Refined Sketches/5.jpg" alt="Chicago" width="1100" height="500">
+							<div class="carousel-caption">
+							  <h3>Bathroom Refresher (Bassel)</h3>
+							  <p>Merging the features of the Auto Air Freshener and Bathroom Air Quality Checker, this device offers an improved solution. It actively monitors bathroom air quality and when necessary employs an air freshener to swiftly enhance the environment.                             </p>
+							</div>   
+						  </div>
+						  <div class="carousel-item">
+							<img src="images/Refined Sketches/6.jpg" alt="Chicago" width="1100" height="500">
+							<div class="carousel-caption">
+							  <h3>Waterer Pipe and Drainage (Bassel)</h3>
+							  <p>Expanding on the Automatic Plant Watering System, this iteration introduces an innovative water supply and drainage system. It integrates the water supply directly from the drain to the water storage, enabling seamless auto-watering. </p>
+							</div>   
+						  </div>
+						  <div class="carousel-item">
+							<img src="images/Refined Sketches/7.jpg" alt="Chicago" width="1100" height="500">
+							<div class="carousel-caption">
+							  <h3> Spring Loaded Phone Case Legs (Bassel)</h3>
+							  <p>Evolving from the device legs concept, this iteration introduces spring-loaded mechanisms for enhanced phone protection. These specially designed legs automatically lift the phone above potential liquid hazards.
+
+                              </p>
+							</div>   
+						  </div>
+						  <div class="carousel-item">
+							<img src="images/Refined Sketches/8.jpg" alt="Chicago" width="1100" height="500">
+							<div class="carousel-caption">
+							  <h3> Telescoping Phone Cases Legs (Bassel)</h3>
+							  <p> Building on the concept of device legs, this iteration introduces telescoping legs designed to protect your phone. These extendable legs swiftly lift the phone above liquid sources.                              </p>
+							</div>   
+						  </div>
+						  <div class="carousel-item">
+							<img src="images/Refined Sketches/9.jpeg" alt="Chicago" width="1100" height="500">
+							<div class="carousel-caption">
+							  <h3>Snoring Detector (Mahian)                     </h3>
+							  <p>Combining features from the Concentration Bracelet and noise detection technology, this wearable device acts as a snoring detector. When noise levels exceed pre-set thresholds associated with snoring, the device triggers a gentle buzz. 
+                            </p>
+							</div>   
+						  </div>
+						  <div class="carousel-item">
+							<img src="images/Refined Sketches/10.jpeg" alt="Chicago" width="1100" height="500">
+							<div class="carousel-caption">
+							  <h3>Device Fans (Mahian)                         </h3>
+							  <p>An evolved iteration of the device legs concept this design takes a different approach to protect the phone from liquid. Instead of moving the phone this innovation employs fans to blow liquid away from the device. By generating airflow directed at the liquid source it prevents potential contact ensuring the phone remains dry and safe without physically relocating it.                            </p>
+							</div>   
+						  </div>
+						</div>
+						<a class="carousel-control-prev" href="#demo1" data-slide="prev">
+						  <span class="carousel-control-prev-icon"></span>
+						</a>
+						<a class="carousel-control-next" href="#demo1" data-slide="next">
+						  <span class="carousel-control-next-icon"></span>
+						</a>
+					  </div>
+                     
+					  <div class="inner">
+						<h2>Design Process</h2>
+                        <h3>The Problem</h3>
+                        <span class="image main"><img src="images/pic42.png" alt="" /></span>
+						<p>In our daily lives, one common and persistent issue we encounter involves safeguarding our smartphones from accidental spills or exposure to moisture. The vulnerability of these devices to liquids poses a constant threat, potentially causing irreversible damage, disrupted functionality, or even complete device failure. Whether it's a spilled drink, a sudden rain shower, or inadvertent contact with moisture-prone surfaces, these situations create anxiety and inconvenience, demanding a solution to protect our valuable gadgets from such hazards.                        </p>
+						<h3>The Solution                        </h3>
+                        <span class="image main"><img src="images/pic43.png" alt="" /></span>
+                        <p>Our prototype addresses this problem by introducing a smart detection and relocation system for smartphones. The design incorporates sensors capable of detecting liquid or moisture presence in the device's vicinity. Once detected, the system swiftly activates a mechanism, intelligently relocating the smartphone to a safe area, mitigating any potential damage. The relocation method could involve swiftly moving the phone away from the spillage or moisture-prone surface. This proactive approach aims to safeguard the device ensuring its longevity and uninterrupted functionality providing users with peace of mind in scenarios where accidents involving liquids are inevitable. </p>
+                        <h2>Concept Video</h2>
+						<div style="display: flex; justify-content: center;">
+                            <iframe width="960" height="715" src="https://www.youtube.com/embed/bYICF_h8i0A?si=nBD0gkGBXDBPw9SX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <h2>Demo</h2>
+						<div style="display: flex; justify-content: center;">
+                            <iframe width="960" height="715" src="https://www.youtube.com/embed/Uy_Hya9uLOY?si=3BjxEV2zhMXFx_K6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <p></p>
+                        <h2 style="padding:0; margin:0;">Prototype</h2>
+                        <span class="image main"><img src="images/pic44.jpg" alt="" /></span>
+                        <h3 style="display: inline; margin-right: 10px;">Orchestra Unlock</h3><a href="https://patch-reliable-satellite.glitch.me">https://patch-reliable-satellite.glitch.me</a>
+                        <p></p>
+						<h2 style="padding:0; margin:0;">Source Code</h2>
+						<h3 style="display: inline; margin-right: 10px; padding:0;"></h3><a href="https://github.com/basselhasan/Project3Arduino">https://github.com/basselhasan/Project3Arduino</a><br>
+					</div>
+
+					</div>
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="primary" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="https://github.com/leanard-valencia" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="mailto:johnleanard.valencia@ucalgary.ca" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
